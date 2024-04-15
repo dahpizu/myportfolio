@@ -10,6 +10,10 @@ header {
   align-items: center;
   padding: 10px;
 }
+header,
+a {
+  text-decoration: none;
+}
 #logo {
   font-size: 35px;
   padding-left: 20px;
@@ -184,4 +188,3 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 }
-
