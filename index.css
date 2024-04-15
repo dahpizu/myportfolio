@@ -171,3 +171,17 @@ a {
   background-color: transparent;
   color: white;
 }
+@media (max-width: 420px) {
+  .img-item {
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(243, 207, 207);
+  }
+  .img-container h1 {
+    font-size: 50px;
+    padding-left: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+
