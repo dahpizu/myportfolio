@@ -2,13 +2,21 @@
   margin: 0;
   padding: 0;
 }
+/* .layout {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-content: space-between;
+} */
 header {
+  top: 0;
   background-color: black;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+}
+footer {
 }
 header,
 a {
@@ -130,6 +138,7 @@ textarea {
   background-color: white;
   display: flex;
   padding: 20px;
+  justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -178,8 +187,6 @@ a {
 @media (max-width: 420px) {
   .img-item {
     border-radius: 10px;
-    width: 75px;
-    height: 75px;
     background-color: rgb(243, 207, 207);
   }
   .img-container h1 {
